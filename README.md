@@ -1,6 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Descrição
+
+Projeto fullstack utilizando Next.js, desenvolvido na 4° edição do Full Stack Week do Felipe Rocha (https://www.youtube.com/)
+
+A aplicação consiste em um sistema completo para restaurantes, estilo ifood.
+
+
+
+## Tecnologias utilizadas
+Next.js, Prisma, Postgres, Docker, Tailwindcss
 
 ## Getting Started
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+
+### First time
+
+Init prisma db:
+```bash
+npx prisma migrate dev --name init_database 
+```
+
+
 
 First, run the development server:
 
